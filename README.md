@@ -5,8 +5,8 @@ In Machine Learning, imbalanced data refers to a situation in classification pro
 
 Handling imbalanced data in classification tasks is a challenge that requires careful consideration of data preprocessing, resampling strategies, model choice, and evaluation metrics. Below is the process you can follow while performing classification on imbalanced datasets:
 
-    Begin by analyzing the distribution of classes within your dataset to understand the extent of the imbalance.
-    Determine the importance of each class in the context of your specific problem.
-    Increase the number of instances in the minority class by replicating them to balance the class distribution.
-    Some algorithms, like tree-based methods, are less sensitive to class imbalance. Consider using these or ensemble methods like Random Forest or Gradient Boosted Trees.
-    Besides accuracy, use metrics that are informative for imbalanced datasets, such as Precision, Recall, F1 Score, or the Area Under the Receiver Operating Characteristic (AUROC) curve.
+1. Begin by analyzing the distribution of classes within your dataset to understand the extent of the imbalance.
+2. Determine the importance of each class in the context of your specific problem.
+3. Increase the number of instances in the minority class by replicating them to balance the class distribution.
+4. Some algorithms, like tree-based methods, are less sensitive to class imbalance. Consider using these or ensemble methods like Random Forest or Gradient Boosted Trees.
+5. Besides accuracy, use metrics that are informative for imbalanced datasets, such as Precision, Recall, F1 Score, or the Area Under the Receiver Operating Characteristic (AUROC) curve.
